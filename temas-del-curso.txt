@@ -1,0 +1,16 @@
+soa
+wcf
+ef
+mvc
+testing
+groupware
+
+vs2015
+ide
+c#
+
+visualstudio.com
+github
+continous integration
+
+embeeded

@@ -1,0 +1,8 @@
+tarea moral:
+cree un archivo de texto con al menos 4 líneas de texto y guárdelo en github
+agréguele más líneas al archivo de texto del punto anterior y guárdelo nuevamente.
+compare las dos versiones anteriores.
+modifíquele al menos 4 líneas al archivo de texto del punto anterior y guárdelo nuevamente.
+compare las versión actual contra la anterior.
+elimínele al menos 2 líneas al archivo de texto del punto anterior y guárdelo nuevamente.
+compare las versión actual contra la anterior.
