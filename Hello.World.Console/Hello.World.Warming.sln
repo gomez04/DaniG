@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.World.Console", "Hell
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.World.Wcf", "Hello.World.Wcf\Hello.World.Wcf.csproj", "{7905C705-2C87-4CCD-BAA6-056CAF974F24}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello.World.Wcf.Test", "Hello.World.Wcf.Test\Hello.World.Wcf.Test.csproj", "{B6477104-A98D-42DA-AF34-EA4AFF57B8CB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7905C705-2C87-4CCD-BAA6-056CAF974F24} = {7905C705-2C87-4CCD-BAA6-056CAF974F24}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +26,10 @@ Global
 		{7905C705-2C87-4CCD-BAA6-056CAF974F24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7905C705-2C87-4CCD-BAA6-056CAF974F24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7905C705-2C87-4CCD-BAA6-056CAF974F24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6477104-A98D-42DA-AF34-EA4AFF57B8CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6477104-A98D-42DA-AF34-EA4AFF57B8CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6477104-A98D-42DA-AF34-EA4AFF57B8CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6477104-A98D-42DA-AF34-EA4AFF57B8CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
