@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="Groupware.Calculadora.MiCalculadora" CodeBehind="MiCalculadora.svc.cs" %>
