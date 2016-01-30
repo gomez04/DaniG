@@ -65,7 +65,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Groupware\Calculadora\LogicaNegocio\Especificaciones\RealizarOperacionBinaria.cs" />
     <Compile Include="LogicaNegocio\Acciones\Sumar.cs" />
+    <Compile Include="LogicaNegocio\Enumerados\Operadores.cs" />
+    <Compile Include="LogicaNegocio\Especificaciones\ObtenerOperando.cs" />
     <Compile Include="LogicaNegocio\Especificaciones\Suma.cs" />
     <Compile Include="LogicaNegocio\Validaciones\Operadores.cs" />
     <Compile Include="MiCalculadora.svc.cs">
