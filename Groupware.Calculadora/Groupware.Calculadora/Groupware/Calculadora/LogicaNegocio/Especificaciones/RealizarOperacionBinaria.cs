@@ -4,9 +4,7 @@ namespace Groupware.Calculadora.LogicaNegocio.Especificaciones
 {
     internal class RealizarOperacionBinaria
     {
-        private Operadores miOperador;
-        private double operandoDos;
-        private double operandoUno;
+
 
         public double RealizarLaOperacionBinaria(Operadores miOperador, double operandoUno, double operandoDos)
         {
